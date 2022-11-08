@@ -16,6 +16,9 @@ class TestCalculadora(TestCase):
     def test_dividir(self):
         self.assertEqual(Calculadora.dividir(3, 2), 1.5)
 
+    def test_dividir1(self):
+        self.assertEqual(Calculadora.dividir(4, 2), 2)
+
 
 if __name__ == '__main__':
     unittest.main()
